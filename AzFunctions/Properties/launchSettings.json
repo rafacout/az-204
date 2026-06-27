@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "FunctionProj": {
+    "AzFunctions": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7183",
+      "commandLineArgs": "--port 7200",
       "launchBrowser": false
     }
   }

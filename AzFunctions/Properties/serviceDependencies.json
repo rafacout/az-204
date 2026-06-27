@@ -8,12 +8,11 @@
       "connectionId": "AzureWebJobsStorage"
     },
     "secrets1": {
-      "type": "secrets",
-      "connectionId": "KeyVaultUri"
+      "type": "secrets"
     },
     "storage2": {
       "type": "storage",
-      "connectionId": "QueueConnectionString",
+      "connectionId": "StorageConnection",
       "dynamicId": null
     }
   }
