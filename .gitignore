@@ -1,0 +1,4 @@
+# Azurite local storage emulator
+.azurite/
+__azurite_db_*
+__blobstorage__/
