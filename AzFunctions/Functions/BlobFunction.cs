@@ -14,6 +14,7 @@ public class BlobFunction
         _logger = logger;
     }
 
+    /*This function will work based on the files that are added to my-blobs blob container*/
     [Function(nameof(BlobFunction))]
     public async Task Run([BlobTrigger("my-blobs/{name}", Connection = "AzureWebJobsStorage")] Stream stream, string name)
     {
